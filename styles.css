@@ -1,0 +1,286 @@
+@Font-face {
+	font-family:Space Age;
+	src:url("fuentes/spaceage.ttf")
+
+}
+
+@Font-face {
+ font-family:Space of Time;
+ src:url("fuentes/space of time.ttf")
+}
+
+@Font-face {
+	font-family:Vainilla Cake;
+	src:url("fuentes/Vainila.otf")
+
+}
+/**/
+body {
+    background-image: url(imagenes/fondo1.gif);
+    font-size: 17PX;
+}
+
+
+p {
+    font-size: 27px;
+	color: white;
+	font-family:space of time;
+	margin-left: 6%;
+	text-align:justify;
+	margin-right:6%;
+}
+
+h1 {
+    font-family: Space Age;
+    border-bottom: 4px rgb(0, 0, 0) solid;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+    margin:0;
+
+	margin-bottom: 0.7%;
+    
+}
+
+h2 {
+    color: #a4d0ff;
+    font-size: 30px;
+    margin: 0;
+    margin-left:3%;
+    font-family:Vainilla Cake;
+}
+
+h3 {
+    color: #10b8d5;
+    font-size: 27px;
+    margin: 0;
+	margin-left: 4%;
+    padding: 10px;
+    font-family:Vainilla Cake;
+}
+
+/*Imagen telescopio del index*/
+
+.telescopio {
+    display:block;
+    margin: auto;
+	width: 50%;
+    padding: 30px;
+}
+
+.gala {
+	width: 40%;
+	margin: auto;
+	border: solid 3px gray;
+	display: block;
+	border-radius: 4px;
+	
+}
+
+.gal {
+	width: 40%;
+	margin: auto;
+	border: solid 3px black;
+	display: block;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+
+/* El h3 del index*/
+
+.h3index {
+	margin:0;
+	margin-left: 4%;
+}
+
+/* Listas */
+
+ol,li,ul	 {
+	margin: 0;
+	margin-left: 3%;
+	margin-right:6%;
+	font-size:25px;
+	color: white;
+	font-family: space of time;
+}
+
+/*Links de la pagina*/
+
+.lin:visited, .lin:link {
+	color: #ffffff;
+	text-decoration: none;
+	text-align:center;
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #ffffff;
+	padding: 5px;
+	margin-left: 3%;
+	margin-right:3%;
+	border-radius: 5px;
+	font-family: space of time;
+    font-size:25px;	
+    
+}
+
+.lin:hover {
+	  color: #31005c;
+  background-color: #b0b9ff;
+  transition: 0.3s;
+}
+
+/*Link de la pagina sisolar*/ 
+
+.sis {
+	color:white;
+}
+
+
+hr {
+	margin-bottom: 30px;
+}
+
+
+.tabla3 {
+	color: #d0c9ff; 
+	margin-left: 5%;
+	text-align:center;
+	background-image: url(imagenes/fondo3.jpg);
+	border-style:solid;
+	border-width:2px;
+	border-radius: 8px;
+	width: 90%;
+	height: 300px;
+	border-spacing:0;
+}
+
+
+
+ .tabla2{ 
+       color: #d0c9ff; 
+	   margin-left: 5%;
+	   text-align:center;
+	   background-image: url(imagenes/fondo2.jpg);
+	   border-style:solid;
+	   border-width:2px;
+	   border-radius: 8px;
+	   width: 90%;
+	   height: 300px;
+	   border-spacing:0;
+	  
+ }
+ 
+ td {
+	 border-style:solid;
+	   border-width:2px;
+	   border-color: #fffff7;
+ }
+ 
+ .galeriafoto {
+     margin: 20px;
+    
+	 padding:0;	
+ }
+
+ .galeriafoto:hover {
+	 
+	 border-bottom: solid 4px #a1ceff;
+	 text-decoration:none;
+	 transition:0.3s;
+ }
+
+.galaxe {
+   display: block;
+   margin-left: 20%;
+   width: 30%; 
+}
+
+ .galax {
+	display: block;
+	margin:auto;
+	width: 60%;
+	border: solid 2px gray;
+	border-radius: 3px;
+    margin-bottom: 10px;  
+ }
+ 
+ .esfera, .imag {
+	 display:block;
+	 margin: auto;
+	 padding: 2px;
+	 background-color: white;
+	 border: solid 4px gray;
+	 border-radius: 7px;
+ }
+ 
+ .lii {
+	color:#b0b9ff;
+
+ }
+
+ .fuego {
+	color: #ff0000;
+	text-decoration: none;
+	
+}
+
+.aire {	
+	color: #ddddff;
+	text-decoration: none;
+}
+
+.agua {
+	color: #3333ff;
+	text-decoration: none;
+}
+
+.tierra {
+	color: #8a4b34;	
+	text-decoration: none;
+}
+
+.tierraa:hover,.aguaa:hover,.airee:hover,.fuegoo:hover {
+	color:#a1ceff;
+	border: solid #a1ceff 2px;
+	border-radius: 30px;
+	padding: 4px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+
+.fuegoo {
+	color: #ff0000;
+	text-decoration: none;
+	
+}
+
+.airee {	
+	color: #ddddff;
+	text-decoration: none;
+}
+
+.aguaa {
+	color: #3333ff;
+	text-decoration: none;
+}
+
+.tierraa {
+	color: #8a4b34;	
+	text-decoration: none;
+}
+
+.tabla1 {
+	width: 50%;
+	margin:auto;
+	text-align: center;
+
+}
+
+.galaxee {
+	width: 25%;
+	display: block;
+    margin: auto;
+
+}
